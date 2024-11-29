@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelsie's Profile</title>
+    <style>
+        /* Overall background and text styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(145deg, #E1BEE7, #9C27B0); /* Soft purple gradient */
+            color: #333;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        /* Profile Section */
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #9C27B0; /* Purple border */
+            margin-bottom: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile h1 {
+            font-size: 36px;
+            color: #7B1FA2; /* Deep purple */
+            margin-bottom: 10px;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        .profile p {
+            font-size: 18px;
+            color: #6A1B9A; /* Medium purple */
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Section Styling */
+        .section {
+            background-color: #F3E5F5; /* Pastel purple background */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #9C27B0;
+            margin-bottom: 10px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Skills and Hobbies List Styling */
+        .skills ul, .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills li, .hobbies li {
+            background-color: #E1BEE7; /* Lighter purple for list items */
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 10px;
+            color: #8E24AA; /* Darker purple text */
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .skills li span, .hobbies li span {
+            font-size: 20px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Profile Container -->
+    <div class="container">
+        <div class="row">
+            <!-- Profile Section (Left Column) -->
+            <div class="column profile">
+                <img src="https://scontent.fmnl16-1.fna.fbcdn.net/v/t39.30808-6/465791174_122109109226590005_4182819327963731699_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFlEE8MrX0OK2iU6qxhF_HI1pyWKr65MgfWnJYqvrkyB4bC0SqjdjOe9TIEwnh_nrgoA_Bqq1lXHXxJdIGOHXe6&_nc_ohc=eEauZaZgDiMQ7kNvgH1ENZF&_nc_zt=23&_nc_ht=scontent.fmnl16-1.fna&_nc_gid=AFkCHPapWirke2QCtIRMT1a&oh=00_AYBj02gIADuKZKoTfA7BAcFKbY-td3oaUYF_VXYxrlFrrg&oe=674F4DBF" alt="Profile Picture of Jelsie S. Sergio">
+                <h1>It's your girl, Jelsie!</h1>
+                <p>Welcome to my personal profile :)</p>
+                <p>Hi Bes! I am Jelsie S. Sergio, from BSIT 2-2, isang simpleng estudyante na gusto lang maka-graduate at kumain sa samgyup yun lang :). Thank you very much!</p>
+            </div>
+
+            <!-- Right Column (Skills, Hobbies) -->
+            <div class="column">
+                <!-- Skills Section -->
+                <div class="section skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><span>🎬 Video Editing</span></li>
+                        <li><span>📸 Photo Editing</span></li>
+                        <li><span>👥 Teamwork</span></li>
+                        <li><span>⚡ Adaptability</span></li>
+                        <li><span>📊 Presentation Maker</span></li>
+                    </ul>
+                </div>
+
+                <!-- Hobbies Section -->
+                <div class="section hobbies">
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li><span>📷 Photography</span></li>
+                        <li><span>🌍 Exploring New Places</span></li>
+                        <li><span>📖 Reading Stories Online</span></li>
+                        <li><span>🏸 Playing Badminton</span></li>
+                        <li><span>🎥 Watching TikTok Videos</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
